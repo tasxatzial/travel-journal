@@ -3,6 +3,7 @@
   --color-light-text: #918E9B;
   --color-inverted-light-text: white;
   --color-accent: #F55A5A;
+  --primary-padding: 1rem;
 }
 
 body {
@@ -10,10 +11,22 @@ body {
   font-size: 0.64rem;
   color: var(--color-dark-text);
   line-height: 1.4;
+  margin: 0;
+}
+
+h1, h2, h3 {
+  margin: 0;
 }
 
 .primary-header {
+  align-items: center;
+  background-color: var(--color-accent);
   color: var(--color-inverted-light-text);
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 0.4375rem;
+  padding: 1rem;
 }
 
 .page-title {
