@@ -18,6 +18,24 @@ h1, h2, h3 {
   margin: 0;
 }
 
+main {
+  padding: 1.6875rem 0;
+}
+
+img,
+svg {
+  display: block;
+  font-style: italic;
+  height: auto;
+  max-width: 100%;
+}
+
+.primary-container {
+  margin: auto;
+  max-width: 25rem;
+  padding-inline: var(--primary-padding);
+}
+
 .primary-header {
   align-items: center;
   background-color: var(--color-accent);
