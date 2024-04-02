@@ -9,6 +9,12 @@ export default function App() {
     )
   });
   return (
-    <>{data}</>
+    <>
+      <header className="primary-header">
+        <img src="assets/header-logo.svg" width="24px" height="24px" alt="" />
+        <h1 className="page-title">my travel journal.</h1>
+      </header>
+      <main>{data}</main>
+    </>
   )
 }
