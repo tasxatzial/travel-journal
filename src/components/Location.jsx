@@ -2,11 +2,11 @@ import React from 'react';
 import locationMarker from '../assets/location-marker.svg';
 
 export default function Location(props) {
-  const {location, country, googleMapsUrl, startDate, endDate, description, imageUrl} = props.item;
+  const {id, location, country, googleMapsUrl, startDate, endDate, description, imageUrl} = props.item;
 
   return (
     <article className='location-root-container'>
-      <div>
+      <div className='location-details-container'>
         <header>
           <div className='location-url-container'>
             <img src={locationMarker} className='location-marker' width="7px" height="10px" alt="" />
