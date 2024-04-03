@@ -104,6 +104,14 @@ svg {
 
 .location-image-container {
   border-radius: 0.3125rem;
+  height: 40vw;
+  overflow: hidden;
+}
+
+.location-image {
+  inset: 100% 0 0 0;
+  position: relative;
+  transform: translateY(-100%);
 }
 
 @media screen and (min-width: 34rem) {
@@ -117,8 +125,6 @@ svg {
 
   .location-image-container {
     height: 10.5rem;
-    overflow: hidden;
-    position: relative;
     width: 27%;
   }
 
@@ -128,10 +134,9 @@ svg {
 
   .location-image {
     height: 100%;
-    left: 50%;
-    position: absolute;
+    inset: 0 0 0 50%;
     max-width: max-content;
-    transform: translateX(-50%);
+    transform: translateX(-50%) translateY(0);
   }
 
   .location-description {
