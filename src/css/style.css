@@ -104,6 +104,7 @@ svg {
 
 .location-image-container {
   border-radius: 0.3125rem;
+  overflow: hidden;
 }
 
 @media screen and (min-width: 34rem) {
@@ -117,7 +118,6 @@ svg {
 
   .location-image-container {
     height: 10.5rem;
-    overflow: hidden;
     width: 27%;
   }
 
