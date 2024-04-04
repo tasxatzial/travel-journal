@@ -11,7 +11,7 @@ export default function App() {
   return (
     <>
       <header className="primary-header">
-        <img src="assets/header-logo.svg" width="24px" height="24px" alt="" />
+        <img src="assets/header-logo.svg" className='header-logo' width="24px" height="24px" alt="" />
         <h1 className="page-title">my travel journal.</h1>
       </header>
       <main>
