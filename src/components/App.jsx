@@ -12,7 +12,7 @@ export default function App() {
     <>
       <header className="primary-header">
         <img src="assets/header-logo.svg" className='header-logo' width="24px" height="24px" alt="" />
-        <h1 className="page-title">my travel journal.</h1>
+        <h1 className="header-title">my travel journal.</h1>
       </header>
       <main>
         <div className="primary-container">{data}</div>

@@ -10,10 +10,10 @@ export default function Location(props) {
         <header>
           <div className='location-url-container'>
             <img src={locationMarker} className='location-marker' width="7px" height="10px" alt="" />
-            <h2 className='location-country'>{country}</h2>
+            <h3 className='location-country'>{country}</h3>
             <a href={googleMapsUrl} className='location-google-url'>View on Google Maps</a>
           </div>
-          <h3 className='location-name'>{location}</h3>
+          <h2 className='location-name'>{location}</h2>
         </header>
         <p className='location-duration'>{startDate} - {endDate}</p>
         <p className='location-description'>{description}</p>
