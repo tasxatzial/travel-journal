@@ -14,7 +14,9 @@ export default function App() {
         <img src="assets/header-logo.svg" width="24px" height="24px" alt="" />
         <h1 className="page-title">my travel journal.</h1>
       </header>
-      <main>{data}</main>
+      <main>
+        <div className="primary-container">{data}</div>
+      </main>
     </>
   )
 }
