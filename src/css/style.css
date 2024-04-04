@@ -32,7 +32,7 @@ svg {
 
 .primary-container {
   margin: auto;
-  max-width: 27rem;
+  max-width: 40rem;
 }
 
 .primary-header {
@@ -52,7 +52,9 @@ svg {
 }
 
 .location-root-container {
+  max-width: 28rem;
   padding: 1.125rem 0;
+  margin: auto;
 }
 
 .location-root-container:not(:last-child) {
@@ -100,6 +102,39 @@ svg {
   margin-bottom: 1rem;
 }
 
-.location-image {
+.location-image-container {
   border-radius: 0.3125rem;
+}
+
+@media screen and (min-width: 34rem) {
+  .location-root-container {
+    align-items: center;
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 1.1875rem;
+    max-width: 90%;
+  }
+
+  .location-image-container {
+    height: 10.5rem;
+    overflow: hidden;
+    position: relative;
+    width: 27%;
+  }
+
+  .location-details-container {
+    flex-shrink: 1000;
+  }
+
+  .location-image {
+    height: 100%;
+    left: 50%;
+    position: absolute;
+    max-width: max-content;
+    transform: translateX(-50%);
+  }
+
+  .location-description {
+    margin-bottom: 0;
+  }
 }
