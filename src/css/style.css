@@ -62,7 +62,7 @@ svg {
 }
 
 .location-root-container:not(:last-child) {
-  border-bottom: 0.0625rem solid var(--color-light-text);
+  border-bottom: 0.0625rem solid hsl(0, 0%, 90%);
 }
 
 .location-url-container {
