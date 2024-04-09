@@ -4,9 +4,9 @@ import travelData from '../data/travel.js';
 import headerLogo from '../assets/header-logo.svg';
 
 export default function App() {
-  const data = travelData.map((item, id) => {
+  const data = travelData.map(item => {
     return (
-      <Location key={id} id={id} item={item}/>
+      <Location key={item.id} item={item}/>
     )
   });
   return (

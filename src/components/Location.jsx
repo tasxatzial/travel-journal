@@ -2,11 +2,11 @@ import React from 'react';
 import locationMarker from '../assets/location-marker.svg';
 
 export default function Location(props) {
-  const {location, country, googleMapsUrl, startDate, endDate, description, imageUrl} = props.item;
-  const id = location.split(' ').join('-') + '-' + props.id;
+  const {id, location, country, googleMapsUrl, startDate, endDate, description, imageUrl} = props.item;
+  const htmlId = location.split(' ').join('-') + '-' + id;
 
   return (
-    <article className='location-root-container' aria-labelledby={id}>
+    <article className='location-root-container' aria-labelledby={htmlId}>
       <div className='location-details-container'>
         <header>
           <div className='location-url-container'>
@@ -14,7 +14,7 @@ export default function Location(props) {
             <h3 className='location-country'>{country}</h3>
             <a href={googleMapsUrl} className='location-google-url'>View on Google Maps</a>
           </div>
-          <h2 id={id} className='location-name'>{location}</h2>
+          <h2 id={htmlId} className='location-name'>{location}</h2>
         </header>
         <p className='location-duration'>{startDate} - {endDate}</p>
         <p className='location-description'>{description}</p>
