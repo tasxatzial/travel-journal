@@ -1,11 +1,14 @@
 # Travel Journal
 
+A simple static page built with React.
+
 This is the second solo project from the React basics module of the [Frontend Career Path](https://scrimba.com/learn/frontend) course on [Scrimba](https://scrimba.com).
 
 ## Implementation
 
 * Responsive.
 * Accessible + screen reader friendly.
+* Mobile first approach.
 
 Since I've had access to the Figma file, I've tried to match the design as closely as possible. However, I decided to adjust some elements based on what I considered to be the best approach. Specifically:
 
