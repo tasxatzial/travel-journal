@@ -4,6 +4,7 @@
   --color-inverted-light-text: white;
   --color-accent: #F55A5A;
   --primary-padding: 1rem;
+  font-size: 150%;
 }
 
 body {

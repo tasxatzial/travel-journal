@@ -10,9 +10,7 @@ This is the second solo project from the React basics module of the [Frontend Ca
 Since I've had access to the Figma file, I've tried to match the design as closely as possible. However, I decided to adjust some elements based on what I considered to be the best approach. Specifically:
 
 * The text contrast of the google maps url was changed from 3.6 to 4.6.
-* The lightness of the divider line between each journal entry has been decreased.
-
-The font sizes are quite small, but I decided to stick with the design and not make any changes.
+* The font sizes were quite small, therefore they were scaled to 150%.
 
 ## Dependencies
 
