@@ -105,6 +105,11 @@ footer {
   line-height: normal;
 }
 
+.location-google-url:focus-visible {
+  outline: 3px solid var(--color-accent);
+  outline-offset: 2px;
+}
+
 .location-country {
   font-size: 0.64rem;
   text-transform: uppercase;
