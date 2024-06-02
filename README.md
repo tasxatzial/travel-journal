@@ -2,7 +2,7 @@
 
 A simple static page built with React.
 
-This is the second solo project from the React basics module of the [Frontend Career Path](https://scrimba.com/learn/frontend) course on [Scrimba](https://scrimba.com).
+This is a solo project from the React basics module of the [Frontend Career Path](https://scrimba.com/learn/frontend) course on [Scrimba](https://scrimba.com).
 
 ## Implementation
 
