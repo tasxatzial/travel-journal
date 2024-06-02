@@ -14,6 +14,7 @@ Since I've had access to the Figma file, I've tried to match the design as close
 
 * The text contrast of the google maps url was changed from 3.6 to 4.6.
 * The font sizes were quite small, therefore they were scaled to 150%.
+* Photos show more content.
 
 ## Dependencies
 
