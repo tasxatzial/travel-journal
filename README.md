@@ -12,9 +12,9 @@ This is a solo project from the React basics module of the [Frontend Career Path
 
 Since I've had access to the Figma file, I've tried to match the design as closely as possible. However, I decided to adjust some elements based on what I considered to be the best approach. Specifically:
 
-* The text contrast of the google maps url was changed from 3.6 to 4.6.
-* The font sizes were quite small, therefore they were scaled to 150%.
-* Photos show more content.
+* The text contrast of the Google Maps URL was too low, so it has been increased.
+* The font sizes were quite small, so they were scaled to 150%.
+* Both columns of each post are aligned to the top instead of the center, creating a more consistent look and feel.
 
 ## Dependencies
 
