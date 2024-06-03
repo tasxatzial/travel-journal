@@ -145,7 +145,7 @@ footer {
 
 @media screen and (min-width: 40em) {
   .location-root-container {
-    align-items: center;
+    align-items: flex-start;
     display: flex;
     flex-direction: row-reverse;
     gap: 1.1875rem;
