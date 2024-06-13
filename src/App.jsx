@@ -1,7 +1,7 @@
 import React from 'react';
 import Location from './components/Location.jsx';
-import travelData from './data/travel.js';
-import headerLogo from './assets/header-logo.svg';
+import travelData from './js/data.js';
+import headerLogo from '/assets/header-logo.svg';
 
 export default function App() {
   const data = travelData.map(item => {

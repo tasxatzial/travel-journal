@@ -1,5 +1,5 @@
 import React from 'react';
-import locationMarker from '../assets/location-marker.svg';
+import locationMarker from '/assets/location-marker.svg';
 
 export default function Location(props) {
   const {location, country, googleMapsUrl, startDate, endDate, description, imageUrl} = props.item;
