@@ -18,7 +18,7 @@ Since I've had access to the Figma file, I've tried to match the design as close
 
 ## Dependencies
 
-This is a basic React project created with Vite. All dependencies are managed by npm except for the images, which are fetched directly from [Unsplash](https://unsplash.com).
+This is a basic React project created with Vite.
 
 ## Run locally
 
@@ -49,3 +49,11 @@ npm run serve
 ## Screenshots
 
 See [screenshots](screenshots/).
+
+## Photos
+
+All photos have been taken from [Unsplash](https://unsplash.com).
+
+* Geirangerfjord: Photo by [James Rathmell](https://unsplash.com/@jamesrathmell?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash) on [Unsplash](https://unsplash.com/photos/body-of-water-between-green-mountains-during-daytime-3PeSjpLVtLg?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash)
+* Mount Fuji: Photo by [Unknown]
+* Sydney Opera House: Photo by [Unknown]
