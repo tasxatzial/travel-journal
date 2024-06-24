@@ -1,6 +1,5 @@
-import React from 'react';
-import Location from './components/Location.jsx';
-import travelData from './js/data.js';
+import Location from './Location.jsx';
+import travelData from '../js/data.js';
 import headerLogo from '/assets/header-logo.svg';
 
 export default function App() {
