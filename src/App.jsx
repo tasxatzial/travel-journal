@@ -1,12 +1,10 @@
-import Location from './Location.jsx';
-import travelData from '../js/data.js';
+import Location from './components/Location.jsx';
+import travelData from './data/locations.js';
 import headerLogo from '/assets/header-logo.svg';
 
 export default function App() {
   const data = travelData.map(item => {
-    return (
-      <Location key={item.id} item={item}/>
-    )
+    return <Location key={item.id} item={item}/>
   });
   return (
     <div className="page-container">
