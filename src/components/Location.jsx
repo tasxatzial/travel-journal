@@ -16,7 +16,7 @@ export default function Location(props) {
           </div>
           <h2 id={id} className="location-name">{location}</h2>
         </header>
-        <p className="location-duration">{startDate} - {endDate}</p>
+        <p className="location-duration">{`${startDate} - ${endDate}`}</p>
         <p className="location-description">{description}</p>
       </div>
       <div className="location-image-container">
