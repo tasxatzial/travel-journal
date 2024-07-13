@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 import locationMarker from '/assets/location-marker.svg';
 
 export default function Location(props) {
@@ -24,4 +25,16 @@ export default function Location(props) {
       </div>
     </article>
   )
+}
+
+Location.propTypes = {
+  item: PropTypes.shape({
+    location: PropTypes.string.isRequired,
+    country: PropTypes.string.isRequired,
+    googleMapsUrl: PropTypes.string.isRequired,
+    startDate: PropTypes.string.isRequired,
+    endDate: PropTypes.string.isRequired,
+    description: PropTypes.string.isRequired,
+    imageUrl: PropTypes.string.isRequired
+  }).isRequired
 }
