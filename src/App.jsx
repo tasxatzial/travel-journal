@@ -15,9 +15,6 @@ export default function App() {
       <main>
         <div className="posts-container">{data}</div>
       </main>
-      <footer>
-        <p className="github-info"><a href="https://github.com/tasxatzial/travel-journal" className="github-link">See the project on GitHub</a></p>
-      </footer>
     </div>
   )
 }

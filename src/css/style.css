@@ -132,17 +132,6 @@ footer {
   overflow: hidden;
 }
 
-.github-info {
-  font-size: 0.75rem;
-  line-height: 1.4;
-  margin: 1em;
-  text-align: center;
-}
-
-.github-link {
-  color: white;
-}
-
 @media screen and (min-width: 40em) {
   .location-root-container {
     align-items: flex-start;
