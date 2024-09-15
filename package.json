@@ -2,7 +2,7 @@
   "name": "travel-journal",
   "private": true,
   "version": "1.0.0",
-  "description": "Travel journal: solo project from Scrimba",
+  "description": "Travel journal",
   "type": "module",
   "scripts": {
     "dev": "vite",
