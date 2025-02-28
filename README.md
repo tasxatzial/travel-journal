@@ -4,6 +4,8 @@ A simple static page built with React.
 
 This is a solo project from the React basics module of the [Frontend Career Path](https://scrimba.com/learn/frontend) course on [Scrimba](https://scrimba.com).
 
+[Live version](https://tasxatzial.github.io/travel-journal/)
+
 ## Implementation
 
 * Responsive.
